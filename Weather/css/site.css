@@ -1,0 +1,71 @@
+#weather{
+    display:inline-flex;
+    height:50%;
+    width:20%;
+    margin-top:10%;
+    margin-left: 35%;
+    margin-right: 20%;
+    
+    #box-shadow: 1px 1px 4px 7px;
+    border-radius: 5px;
+    border: 4px;
+
+    
+}
+
+#top{
+    padding-top: 30px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
+
+    width: 100%;
+    background-image: url("http://www.hotel-r.net/im/hotel/gb/clear-sky-5.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#name{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+#citytemp{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+
+}
+#condition{
+   font-family: 'Lobster', cursive;
+    font-size: 40px;
+
+}
+
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    50%{
+        transform: rotate(180deg);
+    }
+    
+    100%{
+        transform: rotate(259deg);
+    }
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+#img{
+    animation-name: rot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
