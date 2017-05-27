@@ -1,0 +1,46 @@
+#top{
+    margin-top: 30px;
+    font-size:60px;
+    text-align:  center;
+     font-family: 'Lobster', cursive;   
+    
+}
+
+#btn{
+   text-align: center;
+}
+
+#text{
+   
+
+}
+
+important{
+    font-size: small;
+    
+}
+
+
+.col-md-8:hover{
+background-color: #F0F8FF;
+font-size: 25px;
+}
+.col-md-8{
+    #background-color:lightblue;
+    padding-left: 12px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+body{
+    background-image: url("http://www.developyourcity.com/upload/510");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+ul{
+    list-style-type: disc;
+}
