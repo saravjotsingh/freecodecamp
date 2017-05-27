@@ -1,0 +1,47 @@
+
+
+.heading{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 100px;
+    
+    color: white;
+    background-color: #800080;
+}
+
+h4{
+    text-align: right;
+}
+
+hr{
+    border: 1px solid black;
+    size:70px;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+}
+.row{
+        width:100%;
+        text-align: center;
+        
+}
+
+
+
+.col-md-4{
+    font-size: 30px;
+    font-family:monospace;
+}
+
+.result{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+   
+    
+    border-radius: 5px;
+
+}
