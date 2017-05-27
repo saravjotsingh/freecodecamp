@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Pomodoro Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel='stylesheet' href="index.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+</head>
+<body>
+    <div class="text-center">
+        <h1 style="font-size:80px; font-family: 'Lobster', cursive;">POMODORO CLOCK</h1>
+        <h6 style="text-align:right;padding:10px;">--By Saravjot Singh</h6>
+    </div>
+    <hr  width="70%" noshade>
+    
+    <div class="container">
+    
+        <div class='break text-center'>
+            <p>Break Timer</p>
+        <button id='plusb' class='btn btn-primary'>+</button>
+        <h2 id='breaktimer'>5</h2>
+        <button id='minusb' class='btn btn-primary'>-</button>
+        </div>
+        
+        <div class='break text-center'>
+            <p>Session Timer</p>
+        <button id='pluss' class='btn btn-primary'>+</button>
+        <h2 id='sessiontimer'>5</h2>
+        <button id='minuss' class='btn btn-primary'>-</button>
+        </div> 
+        
+        <button id='start' class='btn btn-primary'>START</button>
+        <button id='rst' class='btn btn-primary' style='float:right;'>RESET</button>
+        
+       <p id='timetype' style="text-align:center;font-size:40px; font_family:" ></p>  
+        <div class='output text-center'>
+        
+        </div>
+        
+        
+    
+    </div>
+</body>
+    
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script type='text/javascript' src='script.js'></script>
+</html>
